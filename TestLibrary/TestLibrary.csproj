@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="Atividade_01_Calculadora\Calculadora.cs" />
     <Compile Include="Atividade_01_Calculadora\ICalculadora.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -24,6 +24,8 @@ namespace TestProject
             string valor2 = "4";
 
             Assert.AreEqual(calculadora.Somar(valor1, valor2), 6);
+
+            // Resultado: Esperado.
         }
 
         [TestMethod]
@@ -44,6 +46,8 @@ namespace TestProject
             string valor2 = "4";
 
             Assert.AreEqual(calculadora.Dividir(valor1, valor2), 3);
+
+            // Resultado: Esperado.
         }
 
         [TestMethod]
@@ -63,6 +67,8 @@ namespace TestProject
             string valor1 = "5";
 
             Assert.AreEqual(calculadora.RaizQuadrada(valor1), 25);
+
+            // Resultado: Esperado.
         }
 
         [TestMethod]
