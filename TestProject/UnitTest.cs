@@ -54,7 +54,7 @@ namespace TestProject
 
             Assert.AreEqual(calculadora.Dividir(valor1, valor2), 1);
 
-            // Resultado: Erro, pois o resultado esperado é 1 enquanto o valor dá operação será 0,5.
+            // Resultado: Erro, pois o resultado esperado é 1 enquanto o valor dá operação será 0,5...
         }
 
         [TestMethod]
