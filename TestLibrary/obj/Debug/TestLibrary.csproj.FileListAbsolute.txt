@@ -1,0 +1,4 @@
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestLibrary\bin\Debug\TestLibrary.dll
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestLibrary\bin\Debug\TestLibrary.pdb
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestLibrary\obj\Debug\TestLibrary.dll
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestLibrary\obj\Debug\TestLibrary.pdb

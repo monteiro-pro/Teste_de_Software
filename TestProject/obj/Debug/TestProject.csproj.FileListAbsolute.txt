@@ -1,0 +1,8 @@
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestProject\bin\Debug\TestProject.dll
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestProject\bin\Debug\TestProject.pdb
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestProject\bin\Debug\TestLibrary.dll
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestProject\bin\Debug\TestLibrary.pdb
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestProject\obj\Debug\TestProject.dll
+D:\Documentos\Material de Estudo\Analise e Desenvolvimento de Sistemas\5 Período\Teste de Software\Projetos\TestLibrary\TestProject\obj\Debug\TestProject.pdb
