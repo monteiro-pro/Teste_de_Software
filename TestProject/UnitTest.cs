@@ -2,6 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestLibrary.Atividade_01_Calculadora;
 using TestLibrary.Atividade_03_Polindromo;
+using TestLibrary.Atividade_04_Anagrama;
 
 namespace TestProject
 {
@@ -10,6 +11,7 @@ namespace TestProject
     {
         Calculadora calculadora = new Calculadora();
         Palindromo palindromo = new Palindromo();
+        Anagrama anagrama = new Anagrama();
 
         [TestInitialize]
         public void IniciarTeste()
@@ -107,7 +109,7 @@ namespace TestProject
         }
 
         [TestMethod]
-        public void Negativo()
+        public void NegativoPalindromo()
         {
             string valor = "Carro";
 
@@ -117,11 +119,58 @@ namespace TestProject
         }
 
         [TestMethod]
-        public void Excecao()
+        public void ExcecaoPalindromo()
         {
             string valor = null;
 
             Assert.AreEqual(palindromo.isPalindromo(valor), true);
+
+            // Resultado: Exception, pois o valor do parâmetro não pode ser nulo.
+        }
+        #endregion
+
+        // Teste Atividade 04. Anagrama
+        #region Anagrama
+        [TestMethod]
+        public void PositipoAnagrama()
+        {
+            string valor1 = "Amor";
+            string valor2 = "Roma";
+
+            Assert.AreEqual(anagrama.isAnagrama(valor1, valor2), true);
+
+            // Resultado: Esperado.
+        }
+
+        [TestMethod]
+        public void PositipoNaoAnagrama()
+        {
+            string valor1 = "Carro";
+            string valor2 = "Livro";
+
+            Assert.AreEqual(anagrama.isAnagrama(valor1, valor2), false);
+
+            // Resultado: Esperado.
+        }
+
+        [TestMethod]
+        public void NegativoAnagrama()
+        {
+            string valor1 = "Velho";
+            string valor2 = "casa";
+
+            Assert.AreEqual(anagrama.isAnagrama(valor1, valor2), true);
+
+            // Resultado: A palavra carro não é um Palindromo.
+        }
+
+        [TestMethod]
+        public void ExcecaoAnagrama()
+        {
+            string valor1 = null;
+            string valor2 = null;
+
+            Assert.AreEqual(anagrama.isAnagrama(valor1, valor2), true);
 
             // Resultado: Exception, pois o valor do parâmetro não pode ser nulo.
         }
