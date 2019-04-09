@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Atividade_01_Calculadora\Calculadora.cs" />
     <Compile Include="Atividade_01_Calculadora\ICalculadora.cs" />
+    <Compile Include="Atividade_03_Polindromo\IPalindromo.cs" />
+    <Compile Include="Atividade_03_Polindromo\Palindromo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

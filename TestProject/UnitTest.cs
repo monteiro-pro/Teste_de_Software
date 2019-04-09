@@ -1,6 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using TestLibrary.Atividade_01_Calculadora;
+using TestLibrary.Atividade_03_Polindromo;
 
 namespace TestProject
 {
@@ -8,6 +9,7 @@ namespace TestProject
     public class UnitTest
     {
         Calculadora calculadora = new Calculadora();
+        Palindromo palindromo = new Palindromo();
 
         [TestInitialize]
         public void IniciarTeste()
@@ -79,6 +81,49 @@ namespace TestProject
             Assert.AreEqual(calculadora.RaizQuadrada(valor1), 1);
 
             // Resultado: Erro, pois o resultado esperado é 1 enquanto o valor dá operação será 0.
+        }
+        #endregion
+
+        // Teste Atividade 03. Polindromo
+        #region Polindromo
+        [TestMethod]
+        public void PositipoPalindromo()
+        {
+            string valor = "Após a Sopa";
+
+            Assert.AreEqual(palindromo.isPalindromo(valor), true);
+
+            // Resultado: Esperado.
+        }
+
+        [TestMethod]
+        public void PositipoNaoPalindromo()
+        {
+            string valor = "Carro";
+
+            Assert.AreEqual(palindromo.isPalindromo(valor), false);
+
+            // Resultado: Esperado.
+        }
+
+        [TestMethod]
+        public void Negativo()
+        {
+            string valor = "Carro";
+
+            Assert.AreEqual(palindromo.isPalindromo(valor), true);
+
+            // Resultado: A palavra carro não é um Palindromo.
+        }
+
+        [TestMethod]
+        public void Excecao()
+        {
+            string valor = null;
+
+            Assert.AreEqual(palindromo.isPalindromo(valor), true);
+
+            // Resultado: Exception, pois o valor do parâmetro não pode ser nulo.
         }
         #endregion
 
